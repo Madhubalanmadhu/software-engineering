@@ -1,3 +1,22 @@
+GIT PUSH/PULL
+
+git init
+
+git add .
+
+git commit -m 'dn'
+
+copy git code.
+
+PULL:
+
+git pull
+
+
+
+GIT CREATE A NEW BRANCH:
+
+
 # Initialize a new Git repository
 git init
 
@@ -5,7 +24,7 @@ git init
 git add .
 
 # Commit the changes with a message
-git commit -m 'please'
+git commit -m 'wd'
 
 # Check the current status of the repository
 git status
@@ -16,11 +35,8 @@ git branch main
 # Switch to the 'main' branch
 git checkout main
 
-# Add the remote repository
-git remote add origin https://github.com/josephasborndaniel/no1.git
+git add .
 
-# Rename the current branch to 'main' (redundant since it was already named 'main')
-git branch -M main
+git commit -m 'dn'
 
-# Push the 'main' branch to the remote repository and set it to track the remote branch
-git push -u origin main
+git push origin main
