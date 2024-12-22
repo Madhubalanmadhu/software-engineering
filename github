@@ -1,0 +1,26 @@
+# Initialize a new Git repository
+git init
+
+# Add all files in the directory to the staging area
+git add .
+
+# Commit the changes with a message
+git commit -m 'please'
+
+# Check the current status of the repository
+git status
+
+# Create a new branch named 'main'
+git branch main
+
+# Switch to the 'main' branch
+git checkout main
+
+# Add the remote repository
+git remote add origin https://github.com/josephasborndaniel/no1.git
+
+# Rename the current branch to 'main' (redundant since it was already named 'main')
+git branch -M main
+
+# Push the 'main' branch to the remote repository and set it to track the remote branch
+git push -u origin main
